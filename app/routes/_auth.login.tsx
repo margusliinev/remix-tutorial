@@ -15,14 +15,14 @@ export default function Login() {
                 <Input type='email' id='email' name='email'></Input>
                 <Label htmlFor='password'>Password</Label>
                 <Input type='password' id='password' name='password'></Input>
-                <Button type='submit' className='mt-2'>
+                <Button type='submit' size={'sm'} className='mt-2'>
                     Sign In
                 </Button>
                 <div className='mt-2'>
                     <p className='text-sm text-center'>
                         Don&apos;t have an account?{' '}
                         <Link to='/register' className='text-primary hover:text-primary/90 transition-colors font-medium'>
-                            Sign Up
+                            Sign up
                         </Link>
                     </p>
                 </div>

@@ -17,8 +17,8 @@ export default function Register() {
                 <Input type='email' id='email' name='email'></Input>
                 <Label htmlFor='password'>Password</Label>
                 <Input type='password' id='password' name='password'></Input>
-                <Button type='submit' className='mt-2'>
-                    Sign Up
+                <Button type='submit' size={'sm'} className='mt-2'>
+                    Sign up
                 </Button>
                 <div className='mt-2'>
                     <p className='text-sm text-center'>

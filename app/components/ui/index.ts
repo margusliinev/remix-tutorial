@@ -19,6 +19,9 @@ import {
     DropdownMenuRadioGroup,
 } from './dropdown-menu';
 
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogFooter, DialogTitle, DialogDescription } from './dialog';
+import { Textarea } from './textarea';
+
 export {
     Input,
     Label,
@@ -38,4 +41,12 @@ export {
     DropdownMenuSubContent,
     DropdownMenuSubTrigger,
     DropdownMenuRadioGroup,
+    Dialog,
+    DialogTrigger,
+    DialogContent,
+    DialogHeader,
+    DialogFooter,
+    DialogTitle,
+    DialogDescription,
+    Textarea,
 };
