@@ -1,0 +1,30 @@
+{
+    "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "remix.config.js", "tailwind.config.ts"],
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitReturns": true,
+        "resolveJsonModule": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "strict": true,
+        "noEmit": true,
+        "target": "ES2019",
+        "outDir": "./build",
+        "rootDir": "./",
+        "baseUrl": "./",
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "lib": ["DOM", "DOM.Iterable", "ES2019"],
+        "paths": {
+            "~/*": ["./app/*"]
+        }
+    }
+}
