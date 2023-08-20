@@ -3,6 +3,7 @@ import type { LinksFunction } from '@remix-run/node';
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
 import { ThemeProvider } from '../app/components/theme-provider';
 import styles from './globals.css';
+import { Toaster } from '../app/components/ui/toaster';
 
 export const links: LinksFunction = () => [
     { rel: 'stylesheet', href: styles },
@@ -22,6 +23,7 @@ export default function App() {
                 <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
                     <Outlet />
                 </ThemeProvider>
+                <Toaster />
                 <ScrollRestoration />
                 <Scripts />
                 <LiveReload />
