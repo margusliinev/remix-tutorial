@@ -30,7 +30,7 @@ export const action = async ({ request }: ActionArgs) => {
     }
 
     return createUserSession({
-        redirectTo: '/feed',
+        redirectTo: '/posts',
         request,
         userId: existingUser.id,
     });

@@ -14,6 +14,9 @@ module.exports = {
             },
         },
         extend: {
+            boxShadow: {
+                'post-card': '0 0 5px 1px rgb(0 0 0 / 0.15)',
+            },
             colors: {
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
