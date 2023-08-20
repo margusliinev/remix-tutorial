@@ -76,7 +76,7 @@ export default function Posts() {
                 </div>
                 {data.posts.map((post) => {
                     return (
-                        <article key={post.id} className='max-w-2xl bg-card p-4 rounded-md shadow-post-card'>
+                        <article key={post.id} className='max-w-2xl bg-card p-4 rounded-md shadow-post-card w-full'>
                             <div className='flex items-center justify-between mb-2'>
                                 <h2 className='text-xl font-medium'>{post.title}</h2>
                                 <p className={post.published ? 'text-green-600' : 'text-red-600'}>{post.published ? 'Published' : 'Draft'}</p>
